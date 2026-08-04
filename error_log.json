@@ -1,0 +1,37 @@
+{
+  "log_metadata": {
+    "application": "Sales Data Validation System",
+    "generated_at": "2026-07-22T10:57:48.173479",
+    "total_entries": 4
+  },
+  "entries": [
+    {
+      "uuid": "6fcf6fa0-3707-4a26-a99b-cf8f6aeefdf9",
+      "timestamp": "2026-07-22T10:50:47.115633",
+      "filename": "SALES.csv",
+      "error_type": "INVALID_FILENAME",
+      "error_details": "Filename 'SALES.csv' does not match pattern SALE_DATA_YYYYMMDDHHMMSS.csv"
+    },
+    {
+      "uuid": "17e5e84e-0c04-49f2-9e32-08d5f48d24cb",
+      "timestamp": "2026-07-22T10:50:53.769043",
+      "filename": "SALES.csv",
+      "error_type": "INVALID_FILENAME",
+      "error_details": "Filename 'SALES.csv' does not match pattern SALE_DATA_YYYYMMDDHHMMSS.csv"
+    },
+    {
+      "uuid": "91ba133b-2c1c-40cc-9710-c9fd01be8cb2",
+      "timestamp": "2026-07-22T10:57:23.700025",
+      "filename": "SALES_DATA_20260709125900.csv",
+      "error_type": "INVALID_HEADERS",
+      "error_details": "Missing or incorrect headers. Expected: ['transaction_id', 'timestamp', 'store_id', 'product_id', 'quantity', 'unit_price', 'total_amount', 'payment_method']. Missing: ['quantity', 'unit_price']. Found: ['transaction_id', 'timestamp', 'store_id', 'product_id', 'total_amount', 'payment_method']"
+    },
+    {
+      "uuid": "8e05b72b-ecef-4b8c-bd1f-144857908235",
+      "timestamp": "2026-07-22T10:57:48.173445",
+      "filename": "SALES_DATA_20260709125900.csv",
+      "error_type": "INVALID_HEADERS",
+      "error_details": "Missing or incorrect headers. Expected: ['transaction_id', 'timestamp', 'store_id', 'product_id', 'quantity', 'unit_price', 'total_amount', 'payment_method']. Missing: ['quantity', 'unit_price']. Found: ['transaction_id', 'timestamp', 'store_id', 'product_id', 'total_amount', 'payment_method']"
+    }
+  ]
+}
